@@ -126,7 +126,7 @@ class Reviewer(Mentor):
               f'Фамилия: {self.surname}\n'
               f'У лекторов:')
 
-# Пример использования
+
 student1 = Student('Ruoy', 'Eman', 'your_gender')
 student1.courses_in_progress += ['Python', 'Git']
 student1.finished_courses += ['Введение в программирование']
@@ -148,18 +148,18 @@ lecturer2.grades = {'Python': [10, 9, 9]}
 reviewer = Reviewer('Some', 'Reviewer')
 reviewer.courses_attached += ['Python']
 
-# Вывод информации
+
 print(reviewer)
 print(lecturer1)
 print(student1)
 
 
-# Сравнение студентов
+
 print(student1 > student2)  # Сравнение студентов
 print(student1 < student2)  # Сравнение студентов
 print(student1 == student2)  # Сравнение студентов
 
-# Сравнение лекторов
+
 print(lecturer1 > lecturer2)  # Сравнение лекторов
 print(lecturer1 < lecturer2)  # Сравнение лекторов
 print(lecturer1 == lecturer2)  # Сравнение лекторов
